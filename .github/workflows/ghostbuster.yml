@@ -27,7 +27,7 @@ jobs:
 
       - uses: actions/setup-node@v4
 
-      - uses: pnpm/action-setup@v2
+      - uses: pnpm/action-setup@v4
         with:
           run_install: |
             - args: [--filter, ., --filter, '{./scripts}...']
